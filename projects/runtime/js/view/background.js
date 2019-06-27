@@ -64,9 +64,9 @@ var background = function (window) {
                 
             var candy = draw.bitmap('img/candy.jpg');
                 candy.x = 0;
-                candy.y = groundY-315;
-                candy.scaleX = 1;
-                candy.scaleY = .4;
+                candy.y = groundY-392;
+                candy.scaleX = 1.2;
+                candy.scaleY = .5;
                 background.addChild(candy);
             
 
